@@ -1,0 +1,48 @@
+footer {
+  margin: 20px auto 0;
+  padding: 0 4%;
+  color: grey;
+}
+
+.social-links a {
+  margin-right: 30px;
+}
+
+.social-icon {
+  height: 27px;
+  border-radius: 7px;
+}
+
+.links li {
+  line-height: 1.2;
+  flex-basis: 50%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .links li {
+    flex-basis: 25%;
+  }
+}
+
+.links li a {
+  color: grey;
+}
+.links li a:hover {
+  text-decoration: underline;
+}
+
+.service-btn {
+  color: grey;
+  border: 1px solid grey;
+}
+.service-btn:hover {
+  color: white;
+}
+
+footer i {
+  color: grey;
+}
+.copyright {
+  font-size: 11px;
+}

@@ -1,0 +1,52 @@
+/* CAROUSEL CSS ↓*/
+
+h4 {
+  text-transform: capitalize;
+}
+.movie-card {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.movie-desc {
+  font-size: 0.8em;
+  line-height: normal;
+}
+.movie-img {
+  object-fit: cover;
+}
+.movie-name {
+  font-size: 0.9em;
+}
+/* END OF CAROUSEL CSS ↑ */
+
+main {
+  min-height: 200vh;
+}
+
+.right-icons {
+  color: white !important;
+}
+
+body {
+  background: #141414;
+}
+.title * {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.55) !important;
+}
+.movie-img {
+  background-color: #141414;
+}
+
+.text-left > h4 {
+  font-size: 1.15rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

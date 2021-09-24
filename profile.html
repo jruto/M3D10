@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- <link href="css/styles.css" rel="stylesheet"> -->
+    <title>Netflix</title>
+    <style>
+        body{
+            background-color: rgba(0,0,0,.97) ;
+        }
+        #logo{
+            width: 150px;
+        }
+        #logo1{
+            width: 100px;
+        }
+        .maincard{
+            padding-top: 7%;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div class=" container ">
+        <img src="/assets/netflix_logo.png" alt="logo" id="logo">
+    </div>
+    <div class="container maincard">
+        <h1 class="text-white">Edit Profile</h1>
+        <hr class="text-white">
+        <div class="row">
+            <div class="col-2 text-center"><img src="/assets/strive_logo02.png" class="   " alt="logo" id="logo1"></div>
+            <div class="col-10 text-white ">
+                <input type="text" class='bg-secondary text-light border-light' placeholder="Strive Student">
+                <p class="text-white">Language:</p>
+                    
+                    <!-- <label for="language">Language</label> -->
+                    <select id="language" class="custom-select text-white bg-dark ">
+                        <!-- <option selected>Open this select menu</option> -->
+                        <option value="1">English</option>
+                        <option value="2">Spanish</option>
+                        <option value="3">Japaneese</option>
+                      </select>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-10">
+                    
+                      <hr class="text-white">
+                    
+                      <p class="text-white">Maturity Settings:</p>
+                      <p class="text-light bg-secondary border btn">ALL MATURITY RATINGS</p>
+                      <p class="text-white">Show titles of <strong>all maturity ratings</strong> for this profile.</p>
+                      <div class="btn border">EDIT</div>
+                      <hr class="text-white">
+                      <p class="text-light">Autoplay controls</p>
+                      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                      <label for="vehicle1" class="text-light"> Autoplay next episode in a series on all devices</label><br>
+                      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                      <label for="vehicle2" class="text-light"> Autoplay previews while browsing on all devices</label><br>
+                    <br>
+                    </div>
+                    <br>
+                    <hr class="text-white">
+                    <div class="row"><div class="col d-flex justify-content-around">
+                        <button class="bg-light text-dark border-light">SAVE</button>
+                        <button class="bg-dark text-light border-light">CANCEL</button>
+                        <button class="bg-dark text-light border-light">DELETE PROFILE</button>
+                    </div>
+                    <br>
+                    </div>
+          </div>
+
+
+    </div>
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html> 
+ <!--  -->
